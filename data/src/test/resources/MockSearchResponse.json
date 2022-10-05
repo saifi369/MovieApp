@@ -1,0 +1,1178 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 18277,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/a2n6bKD7qhCPCAEALgsAhWOAQcc.jpg",
+          "genre_ids": [
+            878,
+            53,
+            18
+          ],
+          "id": 49047,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Gravity",
+          "overview": "Dr. Ryan Stone, a brilliant medical engineer on her first Shuttle mission, with veteran astronaut Matt Kowalsky in command of his last flight before retiring. But on a seemingly routine spacewalk, disaster strikes. The Shuttle is destroyed, leaving Stone and Kowalsky completely alone-tethered to nothing but each other and spiraling out into the blackness of space. The deafening silence tells them they have lost any link to Earth and any chance for rescue. As fear turns to panic, every gulp of air eats away at what little oxygen is left. But the only way home may be to go further out into the terrifying expanse of space.",
+          "poster_path": "/wmUeEacsFZzDndaeOtNNmy26rYJ.jpg",
+          "release_date": "2013-10-03",
+          "title": "Gravity",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 13644
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/c7xTZ9EA6GpH72xJC5s0x0KKR1a.jpg",
+          "genre_ids": [
+            10751,
+            16,
+            12,
+            35
+          ],
+          "id": 211672,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Minions",
+          "overview": "Minions Stuart, Kevin and Bob are recruited by Scarlet Overkill, a super-villain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+          "poster_path": "/vlOgaxUiMOA8sPDG9n3VhQabnEi.jpg",
+          "release_date": "2015-06-17",
+          "title": "Minions",
+          "video": false,
+          "vote_average": 6.4,
+          "vote_count": 9528
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/pDKFL1zcHzEpmz4MJA5JJnRbJeD.jpg",
+          "genre_ids": [
+            53,
+            18,
+            878
+          ],
+          "id": 405774,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Bird Box",
+          "overview": "Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety.",
+          "poster_path": "/rGfGfgL2pEPCfhIvqHXieXFn7gp.jpg",
+          "release_date": "2018-12-13",
+          "title": "Bird Box",
+          "video": false,
+          "vote_average": 6.9,
+          "vote_count": 8566
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Bullock",
+      "popularity": 41.16,
+      "profile_path": "/u2tnZ0L2dwrzFKevVANYT5Pb1nE.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 25540,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            35,
+            14
+          ],
+          "id": 508947,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Turning Red",
+          "overview": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda.",
+          "poster_path": "/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+          "release_date": "2022-03-10",
+          "title": "Turning Red",
+          "video": false,
+          "vote_average": 7.5,
+          "vote_count": 3341
+        },
+        {
+          "backdrop_path": "/6UH52Fmau8RPsMAbQbjwN3wJSCj.jpg",
+          "first_air_date": "2021-03-25",
+          "genre_ids": [
+            16,
+            10765,
+            10759,
+            18
+          ],
+          "id": 95557,
+          "media_type": "tv",
+          "name": "Invincible",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Invincible",
+          "overview": "Mark Grayson is a normal teenager except for the fact that his father is the most powerful superhero on the planet. Shortly after his seventeenth birthday, Mark begins to develop powers of his own and enters into his father’s tutelage.",
+          "poster_path": "/yDWJYRAwMNKbIYT8ZB33qy84uzO.jpg",
+          "vote_average": 8.7,
+          "vote_count": 3218
+        },
+        {
+          "backdrop_path": "/Y9MUhFCIquVbijZF5hWcuwsM1O.jpg",
+          "first_air_date": "2005-03-27",
+          "genre_ids": [
+            18
+          ],
+          "id": 1416,
+          "media_type": "tv",
+          "name": "Grey's Anatomy",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Grey's Anatomy",
+          "overview": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
+          "poster_path": "/daSFbrt8QCXV2hSwB0hqYjbj681.jpg",
+          "vote_average": 8.3,
+          "vote_count": 8463
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Oh",
+      "popularity": 16.381,
+      "profile_path": "/zU8vjebHxcP60ESEL5Ok68KWZvj.jpg"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/4qBIuGqMSmUA6zBc2SEXFNZUcho.jpg",
+      "genre_ids": [
+        10770,
+        18,
+        9648
+      ],
+      "id": 385585,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Sandra Brown's White Hot",
+      "overview": "A single and strikingly beautiful interior designer, enjoying success in San Francisco, returns to her Louisiana hometown because of a family tragedy, ten years after running away.",
+      "popularity": 4.152,
+      "poster_path": "/oWvaaEYQlrdD9It4ejs05Nq5Vqv.jpg",
+      "release_date": "2016-04-17",
+      "title": "Sandra Brown's White Hot",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 15
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 32291,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/n39lZOZI65VIq9qw7BpjbldN63b.jpg",
+          "genre_ids": [
+            80,
+            18,
+            9648,
+            53
+          ],
+          "id": 2118,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "L.A. Confidential",
+          "overview": "Three detectives in the corrupt and brutal L.A. police force of the 1950s use differing methods to uncover a conspiracy behind the shotgun slayings of the patrons at an all-night diner.",
+          "poster_path": "/Rzope4Pk93Rg1Q2Ae8H0FYwa7n.jpg",
+          "release_date": "1997-09-19",
+          "title": "L.A. Confidential",
+          "video": false,
+          "vote_average": 7.8,
+          "vote_count": 4021
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/m4UT6yKXhXgbzxpeV35L4jLoJoP.jpg",
+          "genre_ids": [
+            878,
+            28,
+            12,
+            35
+          ],
+          "id": 415,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Batman & Robin",
+          "overview": "Batman and Robin deal with relationship issues while preventing Mr. Freeze and Poison Ivy from attacking Gotham City.",
+          "poster_path": "/cGRDufDDSrFrv7VI4YnmWnslne0.jpg",
+          "release_date": "1997-06-20",
+          "title": "Batman & Robin",
+          "video": false,
+          "vote_average": 4.3,
+          "vote_count": 4291
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wKx7mmKJPEAV5bPiOEakoXVccmL.jpg",
+          "genre_ids": [
+            35,
+            10749
+          ],
+          "id": 4806,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Runaway Bride",
+          "overview": "Ike Graham, New York columnist, writes his text always at the last minute. This time, a drunken man in his favourite bar tells Ike about Maggie Carpenter, a woman who always flees from her grooms in the last possible moment. Ike, who does not have the best opinion about females anyway, writes an offensive column without researching the subject thoroughly.",
+          "poster_path": "/3JpHNd6V8hvR1JFGGSAJsZDYHoR.jpg",
+          "release_date": "1999-07-30",
+          "title": "Runaway Bride",
+          "video": false,
+          "vote_average": 6.1,
+          "vote_count": 1664
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Taylor",
+      "popularity": 8.236,
+      "profile_path": "/8NHNTDoOEkL0JaTrN9uq6T6J3Fk.jpg"
+    },
+    {
+      "backdrop_path": "/eh4UaUMVoMVaXzgcYmOn0TXVz6k.jpg",
+      "first_air_date": "2009-09-07",
+      "genre_ids": [
+        16
+      ],
+      "id": 31158,
+      "media_type": "tv",
+      "name": "Sandra, The Fairytale Detective",
+      "origin_country": [
+        "ES"
+      ],
+      "original_language": "es",
+      "original_name": "Sandra, detective de cuentos",
+      "overview": "Sandra, The Fairytale Detective is a Spanish TV series. Created by Imira Productions. It is an animated program aimed at young children that attempts to combine the genres of fairy tales and detective novels. A few years back, Imira Entertainment sought a way to combine those two concepts while simultaneously creating one of the most inventive cartoons in years. Now, the company is taking its proven success and shopping it around a number of new locations, bringing Sandra to TG4 in Ireland and RSI in Switzerland. The Fairytale Detective is accompanied by her pal Fo the Elf, a 508 year old assistant who gathers Sandra’s cases, as well as Rachel, Sandra’s best pal. As if the mysteries weren’t tough enough, Markus will appear on occasion, hoping to spoil the day by bullying Sandra. Thankfully, though, Sandra always finds her way.",
+      "popularity": 2.249,
+      "poster_path": "/drfdWYyp1Tg27y99Rk3dWUI3pYt.jpg",
+      "vote_average": 8.3,
+      "vote_count": 3
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 1176094,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/ptMoqKs3iEzNMjrpEFz9PpYVCVL.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 21427,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "La Doublure",
+          "overview": "Caught by tabloid paparazzi with his mistress Elena, a famous and beautiful fashion model, billionaire Pierre Levasseur tries to avoid a divorce by inventing a preposterous lie. He uses the presence of a passerby in the photo to claim to his wife that it's not him Elena is seeing but the other man, one François Pignon. Pignon is a modest little man who works as a parking valet. To make the story convincing, Elena has to move in with Pignon.",
+          "poster_path": "/eVP6mln9G4dOoRRrQsY55T0sHOR.jpg",
+          "release_date": "2006-03-29",
+          "title": "The Valet",
+          "video": false,
+          "vote_average": 5.9,
+          "vote_count": 443
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/ieux01445tYkzGdAukUFiYZiDNn.jpg",
+          "genre_ids": [
+            18,
+            36,
+            10752
+          ],
+          "id": 41411,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "La Rafle",
+          "overview": "A faithful retelling of the 1942 \"Vel' d'Hiv Roundup\" and the events surrounding it.",
+          "poster_path": "/9osPoGTddZZfMUzFDs82n57y2wQ.jpg",
+          "release_date": "2010-03-10",
+          "title": "The Round Up",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 879
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/5i78shElk2kVxWtYDTyZRphGyLs.jpg",
+          "genre_ids": [
+            28,
+            53,
+            80
+          ],
+          "id": 60672,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Les Rivières pourpres 2 : Les Anges de l'apocalypse",
+          "overview": "No one is safe when seemingly random killings emerge as a deadly pattern intended to usher in the end of the world.  A murder victim with the same DNA as Christ. A serial killer mimicking the deaths of the 12 Apostles. Inspector Niemans and a young, rebellious detective team up with a beautiful expert in religion to crack the case before their elusive suspect completes the cycle of terror, paving the way to an even bigger bloody catastrophe.",
+          "poster_path": "/hvQZKLVzW3cYfR5bjgGTGZuCuHs.jpg",
+          "release_date": "2004-02-18",
+          "title": "Crimson Rivers II: Angels of the Apocalypse",
+          "video": false,
+          "vote_average": 6.1,
+          "vote_count": 589
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Moreno",
+      "popularity": 9.615,
+      "profile_path": "/aWl6lir4Lri2rBIP4AKLk3sTWC3.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 102065,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/zkzKo08kky5t5FjMN2YcxTD4Dbn.jpg",
+          "genre_ids": [
+            27
+          ],
+          "id": 29129,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Le frisson des vampires",
+          "overview": "A young honeymooning couple stop for the night at an ancient castle. Unbeknownst to them, the castle is home to a horde of vampires, who have their own plans for the couple.",
+          "poster_path": "/gqR04mbWwag6T8yw3zMIQTnW61V.jpg",
+          "release_date": "1971-04-21",
+          "title": "The Shiver of the Vampires",
+          "video": false,
+          "vote_average": 5.1,
+          "vote_count": 46
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/znyf0hylb3hj7UQaJAnXS1N4mHP.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 11915,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Le gendarme et les gendarmettes",
+          "overview": "Cruchot's police office moves into a new building. They do not only get high tech equipment, but also four young female police officers to educate. All of them scramble to work with them -- and cause pure chaos while being distracted by the fine ladies. Then they get into real trouble when one after the other of their female colleagues is kidnapped.",
+          "poster_path": "/aMRRaX48RpSGp7RJxwkIJUndtdJ.jpg",
+          "release_date": "1982-10-03",
+          "title": "The Gendarme and the Gendarmettes",
+          "video": false,
+          "vote_average": 6,
+          "vote_count": 456
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/mI3oicsaJsFIBnexQDGDWG4Lqtg.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 107767,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Je suis une nymphomane",
+          "overview": "A young woman falls down a staircase, and suddenly becomes... a nymphomaniac.",
+          "poster_path": "/xcX6M4AY0qCgmhOHbjOXeCw0sdS.jpg",
+          "release_date": "1971-08-11",
+          "title": "I Am a Nymphomaniac",
+          "video": false,
+          "vote_average": 4.2,
+          "vote_count": 5
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Julien",
+      "popularity": 6.367,
+      "profile_path": "/45MXLPvZ29WKLzbuuswFyRizT11.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 176254,
+      "known_for": [
+        {
+          "backdrop_path": "/LXkKfwAgwhx0cn6nwunweOX8UN.jpg",
+          "first_air_date": "2011-05-02",
+          "genre_ids": [
+            16,
+            10751,
+            10765,
+            35
+          ],
+          "id": 37606,
+          "media_type": "tv",
+          "name": "The Amazing World of Gumball",
+          "origin_country": [
+            "US",
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "The Amazing World of Gumball",
+          "overview": "The life of Gumball Watterson, a 12-year old cat who attends middle school in Elmore. Accompanied by his pet, adoptive brother, and best friend Darwin Watterson, he frequently finds himself involved in various shenanigans around the city, during which he interacts with various family members: Anais, Richard, and Nicole Watterson, and other various citizens.",
+          "poster_path": "/VYnnyA2hyxi3VUPgCA71mMtt69.jpg",
+          "vote_average": 8.5,
+          "vote_count": 1071
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/q7fXcrDPJcf6t3rzutaNwTzuKP1.jpg",
+          "genre_ids": [
+            878,
+            12,
+            28
+          ],
+          "id": 333339,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Ready Player One",
+          "overview": "When the creator of a popular video game system dies, a virtual contest is created to compete for his fortune.",
+          "poster_path": "/pU1ULUq8D3iRxl1fdX2lZIzdHuI.jpg",
+          "release_date": "2018-03-28",
+          "title": "Ready Player One",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 13310
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg",
+          "genre_ids": [
+            80,
+            9648,
+            53
+          ],
+          "id": 414906,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Batman",
+          "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+          "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+          "release_date": "2022-03-01",
+          "title": "The Batman",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 6389
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Dickinson",
+      "popularity": 6.428,
+      "profile_path": "/uFFNRY2tptP1GRogBM9t7PVtilZ.jpg"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/iePccJYwVVV4WSJ0ZopRjx6EJhQ.jpg",
+      "genre_ids": [
+        18,
+        35
+      ],
+      "id": 876284,
+      "media_type": "movie",
+      "original_language": "et",
+      "original_title": "Sandra saab tööd",
+      "overview": "Doctor of Physics Sandra suddenly loses her job. Finding a new job seems easy at first glance, but it turns into various tragicomic challenges. Endless job interviews bring the former researcher together with all sorts of situations and new personalities.",
+      "popularity": 1.4,
+      "poster_path": "/sppYKBjbbNTXHDntwjxpldl82lX.jpg",
+      "release_date": "2021-09-24",
+      "title": "Sandra Gets a Job",
+      "video": false,
+      "vote_average": 1,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/adTekh5vp9g1X1jDWhfEzefHR4c.jpg",
+      "genre_ids": [
+        18
+      ],
+      "id": 682270,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Red Sandra",
+      "overview": "Sandra is a sick kid, her parents are looking for the expensive medicine.",
+      "popularity": 1.022,
+      "poster_path": "/6kHUGn8V15njlb8N6mRqbEtpo4l.jpg",
+      "release_date": "2021-09-17",
+      "title": "Save Sandra",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 203258,
+      "known_for": [
+        {
+          "backdrop_path": "/8LaQ8T9iMQeU207awX2RPWLSTEf.jpg",
+          "first_air_date": "1992-09-19",
+          "genre_ids": [
+            10759,
+            18,
+            80
+          ],
+          "id": 600,
+          "media_type": "tv",
+          "name": "Renegade",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Renegade",
+          "overview": "Framed for murder, Detective Reno Raines becomes a fugitive bounty hunter who fights crime while trying to clear his name. His troubles began after he testified about police corruption, leading Lt. Donald Dixon to set him up.",
+          "poster_path": "/xdpsXW6uAJDWOA0xsWX6tJACQmF.jpg",
+          "vote_average": 6.1,
+          "vote_count": 56
+        },
+        {
+          "backdrop_path": "/q79GW419UwQPJuQ3Gxvxu56QY7R.jpg",
+          "first_air_date": "2003-09-22",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 2691,
+          "media_type": "tv",
+          "name": "Two and a Half Men",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Two and a Half Men",
+          "overview": "A hedonistic jingle writer's free-wheeling life comes to an abrupt halt when his brother and 10-year-old nephew move into his beach-front house.",
+          "poster_path": "/A9QDK4OWpv41W27kCv0LXe30k9S.jpg",
+          "vote_average": 7.4,
+          "vote_count": 2428
+        },
+        {
+          "backdrop_path": "/nWw20ipGipwdOyLTkFfX2Uz4Grp.jpg",
+          "first_air_date": "2005-09-22",
+          "genre_ids": [
+            80,
+            18,
+            9648
+          ],
+          "id": 4057,
+          "media_type": "tv",
+          "name": "Criminal Minds",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Criminal Minds",
+          "overview": "An elite team of FBI profilers analyze the country's most twisted criminal minds, anticipating their next moves before they strike again. The Behavioral Analysis Unit's most experienced agent is David Rossi, a founding member of the BAU who returns to help the team solve new cases.",
+          "poster_path": "/7TCwgX7oQKxcWYEhSPRmaHe6ULN.jpg",
+          "vote_average": 8.3,
+          "vote_count": 3041
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Robinson",
+      "popularity": 5.274,
+      "profile_path": "/tvpnv0KSKyFpVuhxXqW5MS5Pi9X.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 78017,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/cWUOv3H7YFwvKeaQhoAQTLLpo9Z.jpg",
+          "genre_ids": [
+            80,
+            18,
+            35
+          ],
+          "id": 106646,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Wolf of Wall Street",
+          "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
+          "poster_path": "/34m2tygAYBGqA9MXKhRDtzYd4MR.jpg",
+          "release_date": "2013-12-25",
+          "title": "The Wolf of Wall Street",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 20389
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/4rL8iJJ3QqYuh8ibckp5m2wrXPs.jpg",
+          "genre_ids": [
+            18,
+            53
+          ],
+          "id": 1957,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Enough",
+          "overview": "Working-class waitress Slim thought she was entering a life of domestic bliss when she married Mitch, the man of her dreams. After the arrival of their first child, her picture perfect life is shattered when she discovers Mitch's hidden possessive dark side, a controlling and abusive alter ego that can turn trust, love and tranquility into terror. Terrified for her child's safety, Slim flees with her daughter. Relentless in his pursuit and enlisting the aid of lethal henchmen, Mitch continually stalks the prey that was once his family.",
+          "poster_path": "/4glaIcIRw0IVmQKWYVK6CIo0zaU.jpg",
+          "release_date": "2002-05-21",
+          "title": "Enough",
+          "video": false,
+          "vote_average": 6.6,
+          "vote_count": 927
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cq0xYG4TIcEPaFPhkgTpDhWLIqo.jpg",
+          "genre_ids": [
+            18
+          ],
+          "id": 11457,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Life as a House",
+          "overview": "When a man is diagnosed with terminal cancer, he takes custody of his misanthropic teenage son, for whom quality time means getting high, engaging in small-time prostitution, and avoiding his father.",
+          "poster_path": "/sfZBVzDemE0N8KUZ8Pc5JZfqG45.jpg",
+          "release_date": "2001-10-25",
+          "title": "Life as a House",
+          "video": false,
+          "vote_average": 7.1,
+          "vote_count": 331
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Nelson",
+      "popularity": 5.287,
+      "profile_path": "/sERELRAytnbw5SAXI7CcAmwldFj.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 33682,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/hPSOPRzuNiqw8ninzP0BJLCHcMQ.jpg",
+          "genre_ids": [
+            14,
+            10749,
+            878,
+            18,
+            12,
+            10751
+          ],
+          "id": 279229,
+          "media_type": "movie",
+          "original_language": "de",
+          "original_title": "Saphirblau",
+          "overview": "Gwen has just discovered, that she's the final member of the secret time-traveling Circle of Twelve. Now she has to juggle with constant trips to the past, her relationships with Gideon and figuring out dark secrets surrounding the Circle.",
+          "poster_path": "/ct7fs7uSHph9ewGhWaZMrzbgnwZ.jpg",
+          "release_date": "2014-08-14",
+          "title": "Sapphire Blue",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 910
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8oKeWtwlhISzRqTimI998qAwQjf.jpg",
+          "genre_ids": [
+            12,
+            35,
+            10749
+          ],
+          "id": 3716,
+          "media_type": "movie",
+          "original_language": "de",
+          "original_title": "Im Juli",
+          "overview": "Can Daniel follow the sun from Hamburg to the Bosporus by Friday to meet his love?",
+          "poster_path": "/end3RqqYb5zAegPg6ZsWqx8jE1A.jpg",
+          "release_date": "2000-08-23",
+          "title": "In July",
+          "video": false,
+          "vote_average": 7.3,
+          "vote_count": 173
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7Q44vznK8E9SYsdkmIanrLmydZn.jpg",
+          "genre_ids": [
+            28,
+            80,
+            18,
+            36,
+            53
+          ],
+          "id": 6968,
+          "media_type": "movie",
+          "original_language": "de",
+          "original_title": "Der Baader Meinhof Komplex",
+          "overview": "'Der Baader Meinhof Komplex' depicts the political turmoil in the period from 1967 to the bloody \"Deutschen Herbst\" in 1977. The movie approaches the events based on Stefan Aust's standard work on the Rote Armee Fraktion (RAF). The story centers on the leadership of the self named anti-fascist resistance to state violence: Andreas Baader, Ulrike Meinhof and Gudrun Ensslin.",
+          "poster_path": "/4D1MllpbRMt6DDsSCxQxbl2JYM5.jpg",
+          "release_date": "2008-09-25",
+          "title": "The Baader Meinhof Complex",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 469
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Borgmann",
+      "popularity": 6.66,
+      "profile_path": "/8j1LJ7c21oLExljO1BWZe5xZSa4.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 1997513,
+      "known_for": [
+        {
+          "backdrop_path": "/xPkzmwadqxQo6DsHGp3XBNyKann.jpg",
+          "first_air_date": "2019-11-03",
+          "genre_ids": [
+            10765,
+            18
+          ],
+          "id": 68507,
+          "media_type": "tv",
+          "name": "His Dark Materials",
+          "origin_country": [
+            "GB"
+          ],
+          "original_language": "en",
+          "original_name": "His Dark Materials",
+          "overview": "Lyra is an orphan who lives in a parallel universe in which science, theology and magic are entwined. Her search for a kidnapped friend uncovers a sinister plot involving stolen children, and turns into a quest to understand a mysterious phenomenon called Dust. She is later joined on her journey by Will, a boy who possesses a knife that can cut windows between worlds. As she learns the truth about her parents and her prophesied destiny, the two young people are caught up in a war against celestial powers that ranges across many worlds.",
+          "poster_path": "/g6tIKGc3f1H5QMz1dcgCwADKpZ7.jpg",
+          "vote_average": 8,
+          "vote_count": 1153
+        },
+        {
+          "backdrop_path": "/eqhKMZTLcieAvoH6CBqknTTfNby.jpg",
+          "first_air_date": "2022-08-05",
+          "genre_ids": [
+            10765,
+            18
+          ],
+          "id": 90802,
+          "media_type": "tv",
+          "name": "The Sandman",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Sandman",
+          "overview": "After years of imprisonment, Morpheus — the King of Dreams — embarks on a journey across worlds to find what was stolen from him and restore his power.",
+          "poster_path": "/q54qEgagGOYCq5D1903eBVMNkbo.jpg",
+          "vote_average": 8.2,
+          "vote_count": 1024
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/csAasig6hss4lu3Zqd7RYfQP8Ad.jpg",
+          "genre_ids": [
+            18,
+            53,
+            9648,
+            10749
+          ],
+          "id": 37667,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Captives",
+          "overview": "A beautiful young dentist working in a tough British prison starts to become attracted to a violent inmate after the break-up of her marriage, and embarks upon an illicit affair with him, with terrible consequences for all.",
+          "poster_path": "/vfIqkf0WHiDQZuYGP720pGfWMg6.jpg",
+          "release_date": "1994-05-03",
+          "title": "Captives",
+          "video": false,
+          "vote_average": 5.8,
+          "vote_count": 32
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra James-Young",
+      "popularity": 5.304,
+      "profile_path": "/gml5mPv1DuNLVTwv4VEVdaelaxd.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 1645,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/yCxuILdReGFK948mfUOAX75xb5Z.jpg",
+          "genre_ids": [
+            18,
+            10749
+          ],
+          "id": 145,
+          "media_type": "movie",
+          "original_language": "da",
+          "original_title": "Breaking the Waves",
+          "overview": "In a small and conservative Scottish village, a woman's paralytic husband convinces her to have extramarital intercourse so she can tell him about it and give him a reason for living.",
+          "poster_path": "/dQWMcdHXUOSHtr7ypOCa5T79JMS.jpg",
+          "release_date": "1996-05-13",
+          "title": "Breaking the Waves",
+          "video": false,
+          "vote_average": 7.5,
+          "vote_count": 767
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/k9V719Myb9SfhMIuxVpMqQUOpei.jpg",
+          "genre_ids": [
+            18,
+            10402,
+            10749
+          ],
+          "id": 13701,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Immortal Beloved",
+          "overview": "A chronicle of the life of infamous classical composer Ludwig van Beethoven and his painful struggle with hearing loss. Following Beethoven's death in 1827, his assistant, Schindler, searches for an elusive woman referred to in the composer's love letters as \"immortal beloved.\" As Schindler solves the mystery, a series of flashbacks reveal Beethoven's transformation from passionate young man to troubled musical genius.",
+          "poster_path": "/meRFVzGpBJiObWfdtOoNr0UPsP4.jpg",
+          "release_date": "1994-12-16",
+          "title": "Immortal Beloved",
+          "video": false,
+          "vote_average": 7.1,
+          "vote_count": 266
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/uIh3mW3AuSM7ww7NYtvSWDQ1zc7.jpg",
+          "genre_ids": [
+            18,
+            35
+          ],
+          "id": 21450,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Naked",
+          "overview": "An unemployed Brit vents his rage on unsuspecting strangers as he embarks on a nocturnal London odyssey.",
+          "poster_path": "/xOx8xig7zywnLhqEzSdnhzg97va.jpg",
+          "release_date": "1993-09-14",
+          "title": "Naked",
+          "video": false,
+          "vote_average": 7.4,
+          "vote_count": 398
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Voe",
+      "popularity": 6.304,
+      "profile_path": "/pIHuQOcK7FjepXNGM4Ze49yuPAr.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 7152,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/axz6fQq616Nuuj5DrMPyMvYWoEI.jpg",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 374475,
+          "media_type": "movie",
+          "original_language": "de",
+          "original_title": "Toni Erdmann",
+          "overview": "Without warning a father comes to visit his daughter abroad. He believes that she lost her humor and therefore surprises her with a rampage of jokes.",
+          "poster_path": "/v3gf7T8hb8aYv05X2jHmxJQWPZr.jpg",
+          "release_date": "2016-07-14",
+          "title": "Toni Erdmann",
+          "video": false,
+          "vote_average": 7,
+          "vote_count": 812
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/Ac2neP9SZtetX7sAHvl3MHfWnWC.jpg",
+          "genre_ids": [
+            18,
+            36
+          ],
+          "id": 760336,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Munich: The Edge of War",
+          "overview": "At the tense 1938 Munich Conference, former friends who now work for opposing governments become reluctant spies racing to expose a Nazi secret.",
+          "poster_path": "/1SOiUTDnwW9gU4GzSIsOCQUlHJF.jpg",
+          "release_date": "2022-01-06",
+          "title": "Munich: The Edge of War",
+          "video": false,
+          "vote_average": 6.9,
+          "vote_count": 395
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/o9oIYAREijFjp1IJ6BDFoXSbGC9.jpg",
+          "genre_ids": [
+            10749,
+            18
+          ],
+          "id": 70761,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Brownian Movement",
+          "overview": "A psychiatrist's adulterous past continues to haunt her and her husband after they move to India.",
+          "poster_path": "/iImlVuS4iHLRx4Tl0OqvFeg1fkP.jpg",
+          "release_date": "2010-03-24",
+          "title": "Brownian Movement",
+          "video": false,
+          "vote_average": 6,
+          "vote_count": 95
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Hüller",
+      "popularity": 6.384,
+      "profile_path": "/xjHP60YYRSQ3N9RXHYVZ3Fsrm6y.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 102826,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/yZ0dExpNW44xrpOG6qHwLV8pq3P.jpg",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "id": 31655,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Terror",
+          "overview": "A young officer in Napoleon's army pursues a mysterious woman to the castle of an elderly Baron.",
+          "poster_path": "/7ls64LquXB0nc5MkJFWyWaXlBLj.jpg",
+          "release_date": "1963-06-17",
+          "title": "The Terror",
+          "video": false,
+          "vote_average": 5.2,
+          "vote_count": 106
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/bibA3GxudRw8yXXoDiVFCqk7P0e.jpg",
+          "genre_ids": [
+            27
+          ],
+          "id": 29070,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Blood Bath",
+          "overview": "A painter of morbid art, who becomes a murderous vampire by night and kills young women, attempts a daytime relationship with a woman who resembles a former love and is also the sister of one of his victims.",
+          "poster_path": "/cTDOq2bYILUE2nxhKdvnxINpZ7Q.jpg",
+          "release_date": "1966-03-02",
+          "title": "Blood Bath",
+          "video": false,
+          "vote_average": 5.6,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/oqQ8LeUEjkvBTctRI6TZSjgUqTT.jpg",
+          "genre_ids": [
+            27,
+            878
+          ],
+          "id": 45674,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Frankenstein's Daughter",
+          "overview": "Dr. Frankenstein's insane grandson attempts to create horrible monsters in modern day L.A.",
+          "poster_path": "/n8n3VS6qiLbiQvh435wceDB53NJ.jpg",
+          "release_date": "1958-12-15",
+          "title": "Frankenstein's Daughter",
+          "video": false,
+          "vote_average": 4,
+          "vote_count": 15
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Knight",
+      "popularity": 6.261,
+      "profile_path": "/zIRWjJq1dHkouKLLgsLSnWmewTk.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 1219586,
+      "known_for": [
+        {
+          "backdrop_path": "/hiK4qc0tZijQ9KNUnBIS1k4tdMJ.jpg",
+          "first_air_date": "2004-11-16",
+          "genre_ids": [
+            18,
+            9648
+          ],
+          "id": 1408,
+          "media_type": "tv",
+          "name": "House",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "House",
+          "overview": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.",
+          "poster_path": "/lkvhReTBZ2Ksl0Dl5Oplsf6UYkF.jpg",
+          "vote_average": 8.6,
+          "vote_count": 4986
+        },
+        {
+          "backdrop_path": "/q79GW419UwQPJuQ3Gxvxu56QY7R.jpg",
+          "first_air_date": "2003-09-22",
+          "genre_ids": [
+            35,
+            18
+          ],
+          "id": 2691,
+          "media_type": "tv",
+          "name": "Two and a Half Men",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Two and a Half Men",
+          "overview": "A hedonistic jingle writer's free-wheeling life comes to an abrupt halt when his brother and 10-year-old nephew move into his beach-front house.",
+          "poster_path": "/A9QDK4OWpv41W27kCv0LXe30k9S.jpg",
+          "vote_average": 7.4,
+          "vote_count": 2428
+        },
+        {
+          "backdrop_path": "/ysaA0BInz4071p3LKqAQnWKZCsK.jpg",
+          "first_air_date": "2000-01-09",
+          "genre_ids": [
+            10751,
+            35,
+            18
+          ],
+          "id": 2004,
+          "media_type": "tv",
+          "name": "Malcolm in the Middle",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Malcolm in the Middle",
+          "overview": "A gifted young teen tries to survive life with his dimwitted, dysfunctional family.",
+          "poster_path": "/ckLLIsNy3Z0Go1PYHA2PHzVymUA.jpg",
+          "vote_average": 8.5,
+          "vote_count": 3361
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Purpuro",
+      "popularity": 6.178,
+      "profile_path": "/2Kwf7rfxYt3rsuGgYOmvcyr8THI.jpg"
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "id": 239634,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/7lVCox6KxHTH0eDewQKQTWQjnoR.jpg",
+          "genre_ids": [
+            18,
+            10749
+          ],
+          "id": 64724,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Le parfum d'Yvonne",
+          "overview": "It is the summer of 1958 in wealthy Lake Geneva, where an enigmatic young Frenchman begins an affair with a beautiful starlet under the watchful eye of her flamboyant elderly mentor. But in a season full of secrets, is truth the most elusive passion of all?",
+          "poster_path": "/jfK2jrixb7DAc4gPnsf8bkGFH7E.jpg",
+          "release_date": "1994-03-24",
+          "title": "The Perfume of Yvonne",
+          "video": false,
+          "vote_average": 5.7,
+          "vote_count": 21
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/1a81UWKrHQsU1B1ak4HYcVtIAUR.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 66447,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Tango",
+          "overview": "Vincent, a stunt pilot, is acquitted of murdering his wife and her lover. However, a few years later, L'Elegant, the Judge in the case, comes to blackmail him. The Judge's nephew, Paul, is having trouble with his wife and they demand that Vincent kill her. The Judge, a confirmed bachelor, takes Paul and Vincent on the road to search for Paul's wife Marie. The three men get on well together, and spend their time discussing their relationship with women.",
+          "poster_path": "/zFrckeBscdJO0UiLzi0SfUHT14m.jpg",
+          "release_date": "1993-02-03",
+          "title": "Tango",
+          "video": false,
+          "vote_average": 5.7,
+          "vote_count": 20
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/rIDrkRZE5Bh3QQhlgjcAQM0wbNB.jpg",
+          "genre_ids": [
+            35
+          ],
+          "id": 106182,
+          "media_type": "movie",
+          "original_language": "fr",
+          "original_title": "Alberto Express",
+          "overview": "A young Italian, living in Paris with his French wife, is about to become a father. Before the baby is born, Alberto must repay his father for every expense from his own birth until he left home.",
+          "poster_path": "/pETlj76yCVCkN7oCbMJu9in2JaY.jpg",
+          "release_date": "1990-09-05",
+          "title": "Alberto Express",
+          "video": false,
+          "vote_average": 0,
+          "vote_count": 0
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Sandra Majani",
+      "popularity": 4.417,
+      "profile_path": "/hBIGOM1ZmgUVvtYc4V6WYi3Az1Z.jpg"
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "id": 833799,
+      "media_type": "movie",
+      "original_language": "tl",
+      "original_title": "Sandra",
+      "overview": "A former aging movie star, Sandra Belmonte, reconnects with her abusive on-screen ex-lover.",
+      "popularity": 0.882,
+      "poster_path": "/yxpurWb3IMfuPqfLNhdMR45ZJ5e.jpg",
+      "release_date": "1959-01-05",
+      "title": "Sandra",
+      "video": false,
+      "vote_average": 6,
+      "vote_count": 1
+    }
+  ],
+  "total_pages": 110,
+  "total_results": 2196
+}
