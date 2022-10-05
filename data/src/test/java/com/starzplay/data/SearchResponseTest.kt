@@ -1,7 +1,7 @@
 package com.starzplay.data
 
-import com.starzplay.data.dto.MediaTypeMovie
-import com.starzplay.data.dto.MediaTypePerson
+import com.starzplay.data.remote.dto.MediaTypeMovie
+import com.starzplay.data.remote.dto.MediaTypePerson
 import com.starzplay.data.util.ReadAssetFile.readJsonFile
 import org.junit.Assert
 import org.junit.Test

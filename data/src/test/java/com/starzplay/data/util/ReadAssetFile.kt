@@ -1,6 +1,6 @@
 package com.starzplay.data.util
 
-import com.starzplay.data.dto.*
+import com.starzplay.data.remote.dto.*
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule

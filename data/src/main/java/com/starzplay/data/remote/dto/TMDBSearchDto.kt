@@ -1,4 +1,4 @@
-package com.starzplay.data.dto
+package com.starzplay.data.remote.dto
 
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.SerialName

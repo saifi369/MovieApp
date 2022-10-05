@@ -1,7 +1,7 @@
 package com.starzplay.data.remote
 
 import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
-import com.starzplay.data.dto.*
+import com.starzplay.data.remote.dto.*
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.polymorphic
