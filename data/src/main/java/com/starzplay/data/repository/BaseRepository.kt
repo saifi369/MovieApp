@@ -1,4 +1,4 @@
-package com.starzplay.data.remote
+package com.starzplay.data.repository
 
 import com.starzplay.data.remote.model.NetworkResult
 import okio.IOException

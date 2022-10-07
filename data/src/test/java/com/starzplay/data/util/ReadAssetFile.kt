@@ -45,16 +45,17 @@ object ReadAssetFile {
         javaClass.classLoader?.getResourceAsStream(fileName)
 
     fun String.readJsonFile(): TMDBSearchDto {
-        val json = Json {
-            ignoreUnknownKeys = true
-            serializersModule = SerializersModule {
-                polymorphic(MediaType::class) {
-                    subclass(MediaTypeMovie::class, MediaTypeMovie.serializer())
-                    subclass(MediaTypeTv::class, MediaTypeTv.serializer())
-                    subclass(MediaTypePerson::class, MediaTypePerson.serializer())
-                }
+        return tmdbSerializer.decodeFromString(readFileFromTestResources(this))
+    }
+
+    val tmdbSerializer = Json {
+        ignoreUnknownKeys = true
+        serializersModule = SerializersModule {
+            polymorphic(MediaType::class) {
+                subclass(MediaTypeMovie::class, MediaTypeMovie.serializer())
+                subclass(MediaTypeTv::class, MediaTypeTv.serializer())
+                subclass(MediaTypePerson::class, MediaTypePerson.serializer())
             }
         }
-        return json.decodeFromString(readFileFromTestResources(this))
     }
 }
