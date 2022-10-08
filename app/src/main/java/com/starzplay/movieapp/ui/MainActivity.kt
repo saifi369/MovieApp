@@ -9,6 +9,8 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import com.ramcosta.composedestinations.DestinationsNavHost
+import com.starzplay.movieapp.ui.home.MovieVM
 import com.starzplay.movieapp.ui.theme.MovieAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -21,7 +23,7 @@ class MainActivity : ComponentActivity() {
             MovieAppTheme {
                 MyApp {
                     //App content
-                    viewModel.performSearch("Adam Sandler")
+                    DestinationsNavHost(navGraph = NavGraphs.main)
                 }
             }
         }

@@ -1,4 +1,4 @@
-package com.starzplay.movieapp.ui
+package com.starzplay.movieapp.ui.home
 
 import com.starzplay.movieapp.domain.model.PersonItem
 import com.starzplay.movieapp.domain.model.VideoItem
@@ -9,5 +9,5 @@ interface IMovieVM {
     val tvList: StateFlow<List<VideoItem>>
     val personList: StateFlow<List<PersonItem>>
     val viewState: StateFlow<MediaListState>
-    fun performSearch(query: String)
+    fun performSearch(query: String, isUsingCache: Boolean = false)
 }

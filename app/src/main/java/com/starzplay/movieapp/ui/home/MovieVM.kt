@@ -1,12 +1,12 @@
-package com.starzplay.movieapp.ui
+package com.starzplay.movieapp.ui.home
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.starzplay.movieapp.domain.DataState
-import com.starzplay.movieapp.domain.GetSearchResultUseCase
 import com.starzplay.movieapp.domain.model.MediaItem
 import com.starzplay.movieapp.domain.model.PersonItem
 import com.starzplay.movieapp.domain.model.VideoItem
+import com.starzplay.movieapp.domain.usecase.GetSearchResultUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
@@ -33,9 +33,9 @@ class MovieVM @Inject constructor(
     private val _viewState: MutableStateFlow<MediaListState> = MutableStateFlow(MediaListState())
     override val viewState: StateFlow<MediaListState> = _viewState.asStateFlow()
 
-    override fun performSearch(query: String) {
+    override fun performSearch(query: String, isUsingCache: Boolean) {
         viewModelScope.launch(dispatcher) {
-            getSearchResultUseCase(query, false).onEach { dataState ->
+            getSearchResultUseCase(query, isUsingCache).onEach { dataState ->
                 when (dataState) {
                     is DataState.Loading -> {
                         _viewState.value = MediaListState(isLoading = true)

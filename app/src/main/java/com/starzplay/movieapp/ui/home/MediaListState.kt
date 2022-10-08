@@ -1,4 +1,4 @@
-package com.starzplay.movieapp.ui
+package com.starzplay.movieapp.ui.home
 
 data class MediaListState(
     val isSuccess: Boolean = false,

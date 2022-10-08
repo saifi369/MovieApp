@@ -1,11 +1,16 @@
 package com.starzplay.movieapp.domain.model
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
 
-abstract class MediaItem {
-    abstract var id: Int?
-    abstract var mediaType: String?
+@Parcelize
+open class MediaItem : Parcelable {
+    open var id: Int? = null
+    open var mediaType: String? = null
+    open var fullPosterUrl: String? = null
 }
 
+@Parcelize
 data class VideoItem(
     override var id: Int? = null,
     override var mediaType: String?,
@@ -14,9 +19,15 @@ data class VideoItem(
     val backdropPath: String? = null,
     val posterPath: String? = null,
     val voteAverage: Double? = null,
-    val voteCount: Int? = null,
-) : MediaItem()
+    val originalLanguage: String? = null,
 
+    val voteCount: Int? = null,
+) : MediaItem(), Parcelable {
+    override var fullPosterUrl: String? = "https://image.tmdb.org/t/p/w500${posterPath}"
+    val fullBackdropUrl = "https://image.tmdb.org/t/p/w500${backdropPath}"
+}
+
+@Parcelize
 data class PersonItem(
     override var id: Int? = null,
     override var mediaType: String?,
@@ -25,4 +36,6 @@ data class PersonItem(
     val knownFor: List<MediaItem?>? = null,
     val knownForDepartment: String? = null,
     val profilePath: String? = null
-) : MediaItem()
+) : MediaItem(), Parcelable {
+    override var fullPosterUrl: String? = "https://image.tmdb.org/t/p/w500${profilePath}"
+}

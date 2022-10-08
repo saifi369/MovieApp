@@ -1,7 +1,9 @@
-package com.starzplay.movieapp.domain
+package com.starzplay.movieapp.domain.usecase
 
 import com.starzplay.data.remote.model.NetworkResult
 import com.starzplay.data.repository.ITMDBRepository
+import com.starzplay.movieapp.domain.DataState
+import com.starzplay.movieapp.domain.asDomainModel
 import com.starzplay.movieapp.domain.model.MediaItem
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow

@@ -8,6 +8,7 @@ import com.starzplay.data.remote.dto.MediaTypeTv
 import com.starzplay.data.remote.model.NetworkResult
 import com.starzplay.data.repository.ITMDBRepository
 import com.starzplay.movieapp.domain.model.MediaItem
+import com.starzplay.movieapp.domain.usecase.GetSearchResultUseCase
 import com.starzplay.movieapp.util.CoroutineRule
 import io.mockk.coEvery
 import io.mockk.coVerify
