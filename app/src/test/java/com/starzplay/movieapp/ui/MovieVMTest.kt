@@ -86,7 +86,10 @@ class MovieVMTest {
         sut.filterMediaTypes(resultList)
 
         sut.movieList.test {
-            assertEquals(listOf(resultList[0], resultList[1]), awaitItem())
+            assertEquals(listOf(resultList[0]), awaitItem())
+        }
+        sut.tvList.test {
+            assertEquals(listOf(resultList[1]), awaitItem())
         }
         sut.personList.test {
             assertEquals(listOf(resultList[2]), awaitItem())

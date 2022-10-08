@@ -7,13 +7,16 @@ import com.starzplay.movieapp.domain.GetSearchResultUseCase
 import com.starzplay.movieapp.domain.model.MediaItem
 import com.starzplay.movieapp.domain.model.PersonItem
 import com.starzplay.movieapp.domain.model.VideoItem
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class MovieVM(
+@HiltViewModel
+class MovieVM @Inject constructor(
     private val dispatcher: CoroutineDispatcher = Dispatchers.Main,
     private val getSearchResultUseCase: GetSearchResultUseCase
 ) : ViewModel(), IMovieVM {

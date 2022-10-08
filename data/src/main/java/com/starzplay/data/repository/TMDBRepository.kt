@@ -4,8 +4,9 @@ import com.starzplay.data.local.ILocalDataSource
 import com.starzplay.data.remote.TMDBService
 import com.starzplay.data.remote.dto.TMDBSearchDto
 import com.starzplay.data.remote.model.NetworkResult
+import javax.inject.Inject
 
-class TMDBRepository(
+class TMDBRepository @Inject constructor(
     private val remoteService: TMDBService,
     private val localDataSource: ILocalDataSource
 ) : BaseRepository(), ITMDBRepository {

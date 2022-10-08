@@ -1,6 +1,5 @@
 package com.starzplay.movieapp.domain.model
 
-import com.starzplay.data.remote.dto.MediaType
 
 abstract class MediaItem {
     abstract var id: Int?
@@ -23,7 +22,7 @@ data class PersonItem(
     override var mediaType: String?,
     var name: String? = null,
     val gender: Int? = null,
-    val knownFor: List<MediaType?>? = null,
+    val knownFor: List<MediaItem?>? = null,
     val knownForDepartment: String? = null,
     val profilePath: String? = null
 ) : MediaItem()

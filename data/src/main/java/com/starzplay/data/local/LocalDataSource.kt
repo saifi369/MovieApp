@@ -5,11 +5,14 @@ import com.starzplay.data.remote.dto.TMDBSearchDto
 import com.starzplay.data.util.SHARED_PREFERENCES_FILE_NAME
 import com.starzplay.data.util.TMDBSerializer
 import com.starzplay.data.util.TMDB_RESULT_KEY
+import dagger.hilt.android.qualifiers.ApplicationContext
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.decodeFromJsonElement
+import javax.inject.Inject
 
-class LocalDataSource(private val context: Context) : ILocalDataSource {
+class LocalDataSource @Inject constructor(@ApplicationContext private val context: Context) :
+    ILocalDataSource {
 
     override fun getSearchResult(): TMDBSearchDto? {
         val sharedPref = context.getSharedPreferences(SHARED_PREFERENCES_FILE_NAME, 0)

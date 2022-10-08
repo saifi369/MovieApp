@@ -34,7 +34,15 @@ fun MediaTypePerson.toPersonItem() = PersonItem(
     id = id,
     name = name,
     gender = gender,
-    knownFor = knownFor,
+    knownFor = knownFor?.map {
+        when (it) {
+            is MediaTypeMovie -> it.toMovieItem()
+            is MediaTypeTv -> it.toMovieItem()
+            else -> {
+                null
+            }
+        }
+    },
     knownForDepartment = knownForDepartment,
     profilePath = profilePath,
     mediaType = contentMediaType
@@ -52,3 +60,16 @@ fun TMDBSearchDto?.asDomainModel(): List<MediaItem?> =
             }
         }
     } ?: emptyList()
+
+//
+//fun List<MediaType>?.asDomainModel(): List<VideoItem?> =
+//    this?.results?.map {
+//        when (it) {
+//            is MediaTypeMovie -> it.toMovieItem()
+//            is MediaTypeTv -> it.toMovieItem()
+//            is MediaTypePerson -> it.toPersonItem()
+//            else -> {
+//                null
+//            }
+//        }
+//    } ?: emptyList()
