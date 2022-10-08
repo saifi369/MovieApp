@@ -1,9 +1,13 @@
 package com.starzplay.movieapp.ui
 
-import com.starzplay.data.remote.dto.MediaType
+import com.starzplay.movieapp.domain.model.PersonItem
+import com.starzplay.movieapp.domain.model.VideoItem
 import kotlinx.coroutines.flow.StateFlow
 
 interface IMovieVM {
-    val searchResult : StateFlow<List<MediaType>>
-    fun performSearch(query:String)
+    val movieList: StateFlow<List<VideoItem>>
+    val tvList: StateFlow<List<VideoItem>>
+    val personList: StateFlow<List<PersonItem>>
+    val viewState: StateFlow<MediaListState>
+    fun performSearch(query: String)
 }
