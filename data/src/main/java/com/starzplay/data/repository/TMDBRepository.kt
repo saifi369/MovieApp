@@ -14,12 +14,11 @@ class TMDBRepository @Inject constructor(
         query: String,
         isUsingCache: Boolean
     ): NetworkResult<TMDBSearchDto> {
-        val localResult = localDataSource.getSearchResult()
-        return if (isUsingCache && localResult != null) {
-            NetworkResult.Success(data = localResult)
+        return if (isUsingCache && localDataSource.getSearchResult() != null) {
+            NetworkResult.Success(data = localDataSource.getSearchResult()!!)
         } else {
             val response = safeApiCall { remoteService.performMultiSearch(query) }
-            if (response is NetworkResult.Success)
+            if (response is NetworkResult.Success && response.data.results?.isNotEmpty() == true)
                 localDataSource.saveSearchResult(response.data)
             return response
         }

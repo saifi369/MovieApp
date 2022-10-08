@@ -73,7 +73,7 @@ fun HomeScreen(navigator: DestinationsNavigator) {
                         .weight(.5f, fill = false)
                         .align(CenterHorizontally),
                     color = MaterialTheme.colors.primary,
-                    text = "Some went wrong! Please try again"
+                    text = viewState.error
                 )
 
             } else if (viewState.isSuccess) {

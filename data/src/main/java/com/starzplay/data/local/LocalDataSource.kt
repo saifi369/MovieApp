@@ -16,8 +16,10 @@ class LocalDataSource @Inject constructor(@ApplicationContext private val contex
 
     override fun getSearchResult(): TMDBSearchDto? {
         val sharedPref = context.getSharedPreferences(SHARED_PREFERENCES_FILE_NAME, 0)
-        val jsonString = sharedPref.getString(TMDB_RESULT_KEY, null) ?: ""
-        return TMDBSerializer.json.decodeFromJsonElement(Json.parseToJsonElement(jsonString))
+        val jsonString = sharedPref.getString(TMDB_RESULT_KEY, null)
+        return jsonString?.let {
+            return@let TMDBSerializer.json.decodeFromJsonElement(Json.parseToJsonElement(it))
+        }
     }
 
     override fun saveSearchResult(results: TMDBSearchDto): Boolean {

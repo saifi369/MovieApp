@@ -45,7 +45,8 @@ class MovieVM @Inject constructor(
                     }
                     is DataState.Error -> {
                         clearLists()
-                        _viewState.value = MediaListState(error = dataState.error)
+                        _viewState.value =
+                            MediaListState(error = if (!isUsingCache) "Something went wrong, Please check your internet connection.\n${dataState.error}" else "No old data available")
                     }
                 }
             }.launchIn(CoroutineScope(dispatcher))
