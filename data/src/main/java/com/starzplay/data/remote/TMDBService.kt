@@ -1,56 +1,31 @@
 package com.starzplay.data.remote
 
-import com.jakewharton.retrofit2.converter.kotlinx.serialization.asConverterFactory
-import com.starzplay.data.remote.dto.*
-import kotlinx.serialization.json.Json
-import kotlinx.serialization.modules.SerializersModule
-import kotlinx.serialization.modules.polymorphic
-import okhttp3.MediaType.Companion.toMediaType
-import okhttp3.OkHttpClient
-import okhttp3.logging.HttpLoggingInterceptor
+import com.starzplay.data.remote.ApiURL.ARTIST_DETAIL
+import com.starzplay.data.remote.ApiURL.MOVIE_DETAIL
+import com.starzplay.data.remote.ApiURL.MULTI_SEARCH
+import com.starzplay.data.remote.ApiURL.TV_DETAIL
+import com.starzplay.data.remote.dto.MovieDetailDto
+import com.starzplay.data.remote.dto.PersonDetailDto
+import com.starzplay.data.remote.dto.TMDBSearchDto
+import com.starzplay.data.remote.dto.TvDetailDto
 import retrofit2.Response
-import retrofit2.Retrofit
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface TMDBService {
 
-    @GET("search/multi")
+    @GET(MULTI_SEARCH)
     suspend fun performMultiSearch(
-        @Query("query") query: String,
-        @Query("api_key") apiKey: String = API_KEY
+        @Query("query") query: String
     ): Response<TMDBSearchDto>
 
-    companion object {
-        private const val BASE_URL = "https://api.themoviedb.org/3/"
-        private const val API_KEY = "4796a8a8fb4ef004d575df887b04bd34"
+    @GET(MOVIE_DETAIL)
+    suspend fun getMovieDetail(@Path("movieId") movieId: Int): Response<MovieDetailDto>
 
-        private val json = Json {
-            serializersModule = SerializersModule {
-                ignoreUnknownKeys = true
-                polymorphic(MediaType::class) {
-                    subclass(MediaTypeMovie::class, MediaTypeMovie.serializer())
-                    subclass(MediaTypeTv::class, MediaTypeTv.serializer())
-                    subclass(MediaTypePerson::class, MediaTypePerson.serializer())
-                }
-            }
-        }
+    @GET(TV_DETAIL)
+    suspend fun getTvDetail(@Path("tvId") tvId: Int): Response<TvDetailDto>
 
-        fun create(): TMDBService {
-            val logger = HttpLoggingInterceptor()
-            logger.level = HttpLoggingInterceptor.Level.BASIC
-
-            val client = OkHttpClient.Builder()
-                .addInterceptor(logger)
-                .build()
-
-            return Retrofit.Builder()
-                .baseUrl(BASE_URL)
-                .client(client)
-                .addConverterFactory(json.asConverterFactory("application/json".toMediaType()))
-                .build()
-                .create(TMDBService::class.java)
-        }
-    }
-
+    @GET(ARTIST_DETAIL)
+    suspend fun getPersonDetail(@Path("personId") personId: Int): Response<PersonDetailDto>
 }
