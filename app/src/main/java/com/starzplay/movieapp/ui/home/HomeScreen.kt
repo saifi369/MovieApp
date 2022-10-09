@@ -21,7 +21,9 @@ import com.ramcosta.composedestinations.annotation.Destination
 import com.ramcosta.composedestinations.navigation.DestinationsNavigator
 import com.starzplay.movieapp.R
 import com.starzplay.movieapp.domain.model.MediaItem
-import com.starzplay.movieapp.ui.destinations.DetailScreenDestination
+import com.starzplay.movieapp.domain.model.PersonItem
+import com.starzplay.movieapp.domain.model.VideoItem
+import com.starzplay.movieapp.ui.destinations.VideoDetailScreenDestination
 import com.starzplay.movieapp.ui.navgraph.MainNavGraph
 
 @MainNavGraph(start = true)
@@ -106,21 +108,25 @@ fun HomeScreen(navigator: DestinationsNavigator) {
                         if (moviesList.isNotEmpty()) {
                             CategoryText(text = "Movies")
                             ShowMediaList(moviesList) {
-                                navigator.navigate(DetailScreenDestination(mediaItem = it))
+                                navigator.navigate(VideoDetailScreenDestination(videoItem = it as VideoItem))
                             }
                         }
                         //Tv List
                         if (tvList.isNotEmpty()) {
                             CategoryText(text = "Shows")
                             ShowMediaList(tvList) {
-                                navigator.navigate(DetailScreenDestination(mediaItem = it))
+                                navigator.navigate(VideoDetailScreenDestination(videoItem = it as VideoItem))
                             }
                         }
                         //Persons List
                         if (personList.isNotEmpty()) {
                             CategoryText(text = "Persons")
                             ShowMediaList(personList) {
-                                navigator.navigate(DetailScreenDestination(mediaItem = it))
+                                navigator.navigate(
+                                    com.starzplay.movieapp.ui.destinations.ArtistDetailScreenDestination(
+                                        personItem = it as PersonItem
+                                    )
+                                )
                             }
                         }
                     }
@@ -145,13 +151,15 @@ fun HomeScreen(navigator: DestinationsNavigator) {
 }
 
 @Composable
-private fun ShowMediaList(mediaList: List<MediaItem>, onItemClick: (MediaItem) -> Unit) {
+fun ShowMediaList(mediaList: List<MediaItem?>, onItemClick: (MediaItem) -> Unit) {
     LazyRow(
         modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)
     ) {
         items(mediaList) { media ->
-            MovieItem(media) {
-                onItemClick(it)
+            media?.let {
+                MovieItem(media) {
+                    onItemClick(it)
+                }
             }
         }
     }

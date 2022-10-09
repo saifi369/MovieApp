@@ -9,7 +9,7 @@ import com.starzplay.data.remote.model.NetworkResult
 import com.starzplay.data.repository.TMDBRepository
 import com.starzplay.movieapp.domain.model.PersonItem
 import com.starzplay.movieapp.domain.model.VideoItem
-import com.starzplay.movieapp.ui.home.MediaListState
+import com.starzplay.movieapp.ui.home.ViewState
 import com.starzplay.movieapp.ui.home.MovieVM
 import com.starzplay.movieapp.util.CoroutineRule
 import io.mockk.coEvery
@@ -97,7 +97,7 @@ class MovieVMTest {
             assertEquals(listOf(resultList[2]), awaitItem())
         }
         sut.viewState.test {
-            assertEquals(MediaListState(isLoading = false, isSuccess = true), awaitItem())
+            assertEquals(ViewState(isLoading = false, isSuccess = true), awaitItem())
         }
     }
 
@@ -128,7 +128,7 @@ class MovieVMTest {
             assert(list.first().title!! < list[1].title!!)
         }
         sut.viewState.test {
-            assertEquals(MediaListState(isLoading = false, isSuccess = true), awaitItem())
+            assertEquals(ViewState(isLoading = false, isSuccess = true), awaitItem())
         }
     }
 }

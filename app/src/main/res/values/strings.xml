@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">MovieApp</string>
+
+    <string name="description">Description</string>
+    <string name="release_date">Release Date</string>
+    <string name="rating">Rating</string>
+    <string name="vote_count">Votes</string>
+    <string name="popularity">Popularity</string>
+    <string name="language">Language</string>
+    <string name="know_for">Known for</string>
+    <string name="biography">Biography</string>
+    <string name="gender">Gender</string>
+    <string name="birth_day">Birthday</string>
+    <string name="place_of_birth">Place of Birth</string>
 </resources>

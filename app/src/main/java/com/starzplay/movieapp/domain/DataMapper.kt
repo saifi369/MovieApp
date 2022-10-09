@@ -11,7 +11,9 @@ fun MediaTypeMovie.toMovieItem() = VideoItem(
     posterPath = posterPath,
     backdropPath = backdropPath,
     mediaType = contentMediaType,
-    overview = overview
+    overview = overview,
+    originalLanguage = originalLanguage,
+    releaseDate = releaseDate
 )
 
 fun MediaTypeTv.toMovieItem() = VideoItem(
@@ -22,7 +24,9 @@ fun MediaTypeTv.toMovieItem() = VideoItem(
     posterPath = posterPath,
     backdropPath = backdropPath,
     mediaType = contentMediaType,
-    overview = overview
+    overview = overview,
+    originalLanguage = originalLanguage,
+    releaseDate = firstAirDate
 )
 
 fun MediaTypePerson.toPersonItem() = PersonItem(
@@ -40,7 +44,8 @@ fun MediaTypePerson.toPersonItem() = PersonItem(
     },
     knownForDepartment = knownForDepartment,
     profilePath = profilePath,
-    mediaType = contentMediaType
+    mediaType = contentMediaType,
+    popularity = popularity
 )
 
 

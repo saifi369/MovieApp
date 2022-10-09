@@ -30,15 +30,15 @@ class MovieVM @Inject constructor(
     private val _personList: MutableStateFlow<List<PersonItem>> = MutableStateFlow(emptyList())
     override val personList: StateFlow<List<PersonItem>> = _personList.asStateFlow()
 
-    private val _viewState: MutableStateFlow<MediaListState> = MutableStateFlow(MediaListState())
-    override val viewState: StateFlow<MediaListState> = _viewState.asStateFlow()
+    private val _viewState: MutableStateFlow<ViewState> = MutableStateFlow(ViewState())
+    override val viewState: StateFlow<ViewState> = _viewState.asStateFlow()
 
     override fun performSearch(query: String, isUsingCache: Boolean) {
         viewModelScope.launch(dispatcher) {
             getSearchResultUseCase(query, isUsingCache).onEach { dataState ->
                 when (dataState) {
                     is DataState.Loading -> {
-                        _viewState.value = MediaListState(isLoading = true)
+                        _viewState.value = ViewState(isLoading = true)
                     }
                     is DataState.Success -> {
                         filterMediaTypes(dataState.data)
@@ -46,7 +46,7 @@ class MovieVM @Inject constructor(
                     is DataState.Error -> {
                         clearLists()
                         _viewState.value =
-                            MediaListState(error = if (!isUsingCache) "Something went wrong, Please check your internet connection.\n${dataState.error}" else "No old data available")
+                            ViewState(error = if (!isUsingCache) "Something went wrong, Please check your internet connection.\n${dataState.error}" else "No old data available")
                     }
                 }
             }.launchIn(CoroutineScope(dispatcher))
@@ -71,7 +71,7 @@ class MovieVM @Inject constructor(
                 it.name
             }
         }
-        _viewState.value = MediaListState(isSuccess = true)
+        _viewState.value = ViewState(isSuccess = true)
     }
 
     private inline fun <reified T : MediaItem> getMediaTypeList(

@@ -20,7 +20,7 @@ data class VideoItem(
     val posterPath: String? = null,
     val voteAverage: Double? = null,
     val originalLanguage: String? = null,
-
+    val releaseDate: String? = null,
     val voteCount: Int? = null,
 ) : MediaItem(), Parcelable {
     override var fullPosterUrl: String? = "https://image.tmdb.org/t/p/w500${posterPath}"
@@ -35,7 +35,8 @@ data class PersonItem(
     val gender: Int? = null,
     val knownFor: List<MediaItem?>? = null,
     val knownForDepartment: String? = null,
-    val profilePath: String? = null
+    val profilePath: String? = null,
+    val popularity: Double? = null,
 ) : MediaItem(), Parcelable {
     override var fullPosterUrl: String? = "https://image.tmdb.org/t/p/w500${profilePath}"
 }
