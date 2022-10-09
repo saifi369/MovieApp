@@ -1,9 +1,6 @@
 package com.starzplay.data.repository
 
-import com.starzplay.data.remote.dto.MovieDetailDto
-import com.starzplay.data.remote.dto.PersonDetailDto
-import com.starzplay.data.remote.dto.TMDBSearchDto
-import com.starzplay.data.remote.dto.TvDetailDto
+import com.starzplay.data.remote.dto.*
 import com.starzplay.data.remote.model.NetworkResult
 
 interface ITMDBRepository {
@@ -23,4 +20,9 @@ interface ITMDBRepository {
     suspend fun getTvDetails(
         tvId: Int
     ): NetworkResult<TvDetailDto>
+
+    suspend fun getCastDetail(
+        mediaType: String,
+        mediaId: Int
+    ): NetworkResult<CastInfoDto>
 }

@@ -100,7 +100,7 @@ fun TvDetailDto.asDomainModel() = TvDetail(
 
 fun PersonDetailDto.asDomainModel() = PersonDetail(
     adult = adult,
-    alsoKnownAs,
+    alsoKnownAs = alsoKnownAs,
     biography = biography,
     birthday = birthday,
     gender = gender,
@@ -111,4 +111,32 @@ fun PersonDetailDto.asDomainModel() = PersonDetail(
     placeOfBirth = placeOfBirth,
     popularity = popularity,
     profilePath = profilePath
+)
+
+fun CastInfoDto.asDomainModel(): List<CastInfo?>? {
+    return this.cast?.map {
+        it?.asDomainModel()
+    }
+}
+
+fun Cast.asDomainModel() = CastInfo(
+    castId = castId,
+    character = character,
+    gender = gender,
+    id = id,
+    knownForDepartment = knownForDepartment,
+    name = name,
+    originalName = originalName,
+    popularity = popularity,
+    profilePath = profilePath
+)
+
+fun CastInfo.toPersonItem() = PersonItem(
+    id = castId,
+    mediaType = mediaType,
+    name = name,
+    gender = gender,
+    knownForDepartment = knownForDepartment,
+    profilePath = profilePath,
+    popularity = popularity
 )

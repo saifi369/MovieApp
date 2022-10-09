@@ -2,10 +2,7 @@ package com.starzplay.data.repository
 
 import com.starzplay.data.local.ILocalDataSource
 import com.starzplay.data.remote.TMDBService
-import com.starzplay.data.remote.dto.MovieDetailDto
-import com.starzplay.data.remote.dto.PersonDetailDto
-import com.starzplay.data.remote.dto.TMDBSearchDto
-import com.starzplay.data.remote.dto.TvDetailDto
+import com.starzplay.data.remote.dto.*
 import com.starzplay.data.remote.model.NetworkResult
 import javax.inject.Inject
 
@@ -35,4 +32,14 @@ class TMDBRepository @Inject constructor(
 
     override suspend fun getTvDetails(tvId: Int): NetworkResult<TvDetailDto> =
         safeApiCall { remoteService.getTvDetail(tvId) }
+
+    override suspend fun getCastDetail(
+        mediaType: String,
+        mediaId: Int
+    ): NetworkResult<CastInfoDto> {
+        return if (mediaType == "movie")
+            safeApiCall { remoteService.getMovieCast(mediaId) }
+        else
+            safeApiCall { remoteService.getShowCast(mediaId) }
+    }
 }

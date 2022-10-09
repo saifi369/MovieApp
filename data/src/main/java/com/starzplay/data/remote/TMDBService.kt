@@ -1,13 +1,12 @@
 package com.starzplay.data.remote
 
 import com.starzplay.data.remote.ApiURL.ARTIST_DETAIL
+import com.starzplay.data.remote.ApiURL.MOVIE_CAST
 import com.starzplay.data.remote.ApiURL.MOVIE_DETAIL
 import com.starzplay.data.remote.ApiURL.MULTI_SEARCH
+import com.starzplay.data.remote.ApiURL.TV_CAST
 import com.starzplay.data.remote.ApiURL.TV_DETAIL
-import com.starzplay.data.remote.dto.MovieDetailDto
-import com.starzplay.data.remote.dto.PersonDetailDto
-import com.starzplay.data.remote.dto.TMDBSearchDto
-import com.starzplay.data.remote.dto.TvDetailDto
+import com.starzplay.data.remote.dto.*
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Path
@@ -28,4 +27,10 @@ interface TMDBService {
 
     @GET(ARTIST_DETAIL)
     suspend fun getPersonDetail(@Path("personId") personId: Int): Response<PersonDetailDto>
+
+    @GET(TV_CAST)
+    suspend fun getShowCast(@Path("tvId") tvId: Int): Response<CastInfoDto>
+
+    @GET(MOVIE_CAST)
+    suspend fun getMovieCast(@Path("movieId") movieId: Int): Response<CastInfoDto>
 }
